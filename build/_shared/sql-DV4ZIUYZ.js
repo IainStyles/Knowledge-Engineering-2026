@@ -1,1 +1,1 @@
-import{a}from"/Knowledge-Engineering-2026/build/_shared/chunk-GALEQFJV.js";import"/Knowledge-Engineering-2026/build/_shared/chunk-OZE3FFNP.js";export default a();
+import{a}from"//build/_shared/chunk-GALEQFJV.js";import"//build/_shared/chunk-OZE3FFNP.js";export default a();
