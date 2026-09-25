@@ -1,0 +1,32 @@
+MSc AI,Requires,ECS8050
+MSc AI,Requires,ECS8051
+MSc AI,Requires,ECS8052
+Alice,Enrolled,MSc AI
+Bob,Enrolled,MSc AI
+Chen,Enrolled,MSc AI
+Diana,Teaches,ECS8050
+Edward,Teaches,ECS8051
+Faye,Teaches,ECS8052
+Alice,Passed,ECS8050
+Alice,Passed,ECS8051
+Alice,Passed,ECS8052
+Bob,Passed,ECS8050
+Bob,Passed,ECS8051
+Chen,Passed,ECS8050
+Chen,Passed,ECS8051
+Chen,Passed,ECS8052
+Gurpreet,Enrolled,MSc Cyber Security
+Hanvir,Enrolled,MSc Cyber Security
+Jasmine,Enrolled,MSc Cyber Security
+MSc Cyber Security,Requires,ECS8051
+MSc Cyber Security,Requires,ECS8058
+MSc Cyber Security,Requires,ECS8059
+Diana,Teaches,ECS8058
+Lamin,Teaches,ECS8059
+Gurpreet,Passed,ECS8051
+Gurpreet,Passed,ECS8059
+Hanvir,Passed,ECS8058
+Hanvir,Passed,ECS8059
+Jasmine,Passed,ECS8051
+Jasmine,Passed,ECS8058
+Jasmine,Passed,ECS8059
