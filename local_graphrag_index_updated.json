@@ -1,0 +1,217 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "category": "Organization",
+      "source_chunk": "Chunk 4",
+      "pagerank": 0.036611660042054184,
+      "degree_centrality": 0.25,
+      "id": "DeepMind"
+    },
+    {
+      "category": "Person",
+      "source_chunk": "Chunk 1",
+      "pagerank": 0.04125243664212681,
+      "degree_centrality": 0.08333333333333333,
+      "id": "Demis Hassabis"
+    },
+    {
+      "category": "Model",
+      "source_chunk": "Chunk 4",
+      "pagerank": 0.04125243664212681,
+      "degree_centrality": 0.25,
+      "id": "AlphaFold 2"
+    },
+    {
+      "category": "Architecture",
+      "source_chunk": "Chunk 1",
+      "pagerank": 0.043224798545950675,
+      "degree_centrality": 0.08333333333333333,
+      "id": "Evoformer"
+    },
+    {
+      "category": "Person",
+      "source_chunk": "Chunk 2",
+      "pagerank": 0.02569232058755482,
+      "degree_centrality": 0.16666666666666666,
+      "id": "John Jumper"
+    },
+    {
+      "category": "Architecture",
+      "source_chunk": "Chunk 2",
+      "pagerank": 0.036611660042054184,
+      "degree_centrality": 0.08333333333333333,
+      "id": "Evoformer architecture"
+    },
+    {
+      "category": "Organization",
+      "source_chunk": "Chunk 2",
+      "pagerank": 0.036611660042054184,
+      "degree_centrality": 0.16666666666666666,
+      "id": "Protein Structure Team"
+    },
+    {
+      "category": "Organization",
+      "source_chunk": "Chunk 4",
+      "pagerank": 0.06773189215119815,
+      "degree_centrality": 0.3333333333333333,
+      "id": "Isomorphic Labs"
+    },
+    {
+      "category": "Model",
+      "source_chunk": "Chunk 3",
+      "pagerank": 0.054478713649919776,
+      "degree_centrality": 0.08333333333333333,
+      "id": "AlphaFold 2 model"
+    },
+    {
+      "category": "Organization",
+      "source_chunk": "Chunk 5",
+      "pagerank": 0.0763173925589185,
+      "degree_centrality": 0.16666666666666666,
+      "id": "Eli Lilly Oncology Targets"
+    },
+    {
+      "category": "Condition",
+      "source_chunk": "Chunk 3",
+      "pagerank": 0.05812761855702153,
+      "degree_centrality": 0.08333333333333333,
+      "id": "Solid Tumors"
+    },
+    {
+      "category": "Organization",
+      "source_chunk": "Chunk 4",
+      "pagerank": 0.02569232058755482,
+      "degree_centrality": 0.16666666666666666,
+      "id": "Alphabet Inc"
+    },
+    {
+      "category": "Infrastructure",
+      "source_chunk": "Chunk 4",
+      "pagerank": 0.043224798545950675,
+      "degree_centrality": 0.08333333333333333,
+      "id": "Google Cloud TPUv3 Supercluster"
+    },
+    {
+      "category": "Person",
+      "source_chunk": "Chunk 5",
+      "pagerank": 0.02569232058755482,
+      "id": "Max Jaderberg"
+    },
+    {
+      "category": "Location",
+      "source_chunk": "Chunk 5",
+      "pagerank": 0.3874779708179601,
+      "id": "Royal Marsden Research Center"
+    }
+  ],
+  "links": [
+    {
+      "relation": "FOUNDED",
+      "source_chunk": "Chunk 1",
+      "evidence": "Dr. Demis Hassabis, a former researcher at University College London, founded DeepMind in 2010. DeepMind develops AlphaFold 2, a next-generation protein structure prediction model. AlphaFold 2 uses the Evoformer architecture to process multiple sequence alignments efficiently.",
+      "source": "DeepMind",
+      "target": "Demis Hassabis"
+    },
+    {
+      "relation": "DEVELOPS",
+      "source_chunk": "Chunk 1",
+      "evidence": "Dr. Demis Hassabis, a former researcher at University College London, founded DeepMind in 2010. DeepMind develops AlphaFold 2, a next-generation protein structure prediction model. AlphaFold 2 uses the Evoformer architecture to process multiple sequence alignments efficiently.",
+      "source": "DeepMind",
+      "target": "AlphaFold 2"
+    },
+    {
+      "relation": "USES_ARCHITECTURE",
+      "source_chunk": "Chunk 1",
+      "evidence": "Dr. Demis Hassabis, a former researcher at University College London, founded DeepMind in 2010. DeepMind develops AlphaFold 2, a next-generation protein structure prediction model. AlphaFold 2 uses the Evoformer architecture to process multiple sequence alignments efficiently.",
+      "source": "AlphaFold 2",
+      "target": "Evoformer"
+    },
+    {
+      "relation": "IS TRAINED ON",
+      "source_chunk": "Chunk 4",
+      "evidence": "Alphabet Inc funded both DeepMind and Isomorphic Labs during their corporate expansions. To support large-scale biomedical runs, AlphaFold 2 was trained on the Google Cloud TPUv3 Supercluster.",
+      "source": "AlphaFold 2",
+      "target": "Google Cloud TPUv3 Supercluster"
+    },
+    {
+      "relation": "CO_INVENTED",
+      "source_chunk": "Chunk 2",
+      "evidence": "John Jumper co-invented the Evoformer architecture. John Jumper leads the Protein Structure Team in London. Recently, the Protein Structure Team partnered with Isomorphic Labs to accelerate computational drug discovery.",
+      "source": "John Jumper",
+      "target": "Evoformer architecture"
+    },
+    {
+      "relation": "LEADS",
+      "source_chunk": "Chunk 2",
+      "evidence": "John Jumper co-invented the Evoformer architecture. John Jumper leads the Protein Structure Team in London. Recently, the Protein Structure Team partnered with Isomorphic Labs to accelerate computational drug discovery.",
+      "source": "John Jumper",
+      "target": "Protein Structure Team"
+    },
+    {
+      "relation": "PARTNERED_WITH",
+      "source_chunk": "Chunk 2",
+      "evidence": "John Jumper co-invented the Evoformer architecture. John Jumper leads the Protein Structure Team in London. Recently, the Protein Structure Team partnered with Isomorphic Labs to accelerate computational drug discovery.",
+      "source": "Protein Structure Team",
+      "target": "Isomorphic Labs"
+    },
+    {
+      "relation": "USES_ARCHITECTURE",
+      "source_chunk": "Chunk 3",
+      "evidence": "Isomorphic Labs uses the AlphaFold 2 model to simulate molecular binding pathways. Through these simulations, Isomorphic Labs advances Eli Lilly Oncology Targets, a novel small-molecule compound. Eli Lilly Oncology Targets effectively address Solid Tumors in preclinical research.",
+      "source": "Isomorphic Labs",
+      "target": "AlphaFold 2 model"
+    },
+    {
+      "relation": "ADVANCES",
+      "source_chunk": "Chunk 3",
+      "evidence": "Isomorphic Labs uses the AlphaFold 2 model to simulate molecular binding pathways. Through these simulations, Isomorphic Labs advances Eli Lilly Oncology Targets, a novel small-molecule compound. Eli Lilly Oncology Targets effectively address Solid Tumors in preclinical research.",
+      "source": "Isomorphic Labs",
+      "target": "Eli Lilly Oncology Targets"
+    },
+    {
+      "relation": "ADDRESS",
+      "source_chunk": "Chunk 3",
+      "evidence": "Isomorphic Labs uses the AlphaFold 2 model to simulate molecular binding pathways. Through these simulations, Isomorphic Labs advances Eli Lilly Oncology Targets, a novel small-molecule compound. Eli Lilly Oncology Targets effectively address Solid Tumors in preclinical research.",
+      "source": "Eli Lilly Oncology Targets",
+      "target": "Solid Tumors"
+    },
+    {
+      "relation": "IS_TARGET_OF",
+      "source_chunk": "Chunk 5",
+      "evidence": "Max Jaderberg leads the computational clinical platform for Eli Lilly Oncology Targets at Royal Marsden Research Center.",
+      "source": "Eli Lilly Oncology Targets",
+      "target": "Royal Marsden Research Center"
+    },
+    {
+      "relation": "FUNDS",
+      "source_chunk": "Chunk 4",
+      "evidence": "Alphabet Inc funded both DeepMind and Isomorphic Labs during their corporate expansions. To support large-scale biomedical runs, AlphaFold 2 was trained on the Google Cloud TPUv3 Supercluster.",
+      "source": "Alphabet Inc",
+      "target": "DeepMind"
+    },
+    {
+      "relation": "FUNDS",
+      "source_chunk": "Chunk 4",
+      "evidence": "Alphabet Inc funded both DeepMind and Isomorphic Labs during their corporate expansions. To support large-scale biomedical runs, AlphaFold 2 was trained on the Google Cloud TPUv3 Supercluster.",
+      "source": "Alphabet Inc",
+      "target": "Isomorphic Labs"
+    },
+    {
+      "relation": "LEADS",
+      "source_chunk": "Chunk 5",
+      "evidence": "Max Jaderberg leads the computational clinical platform for Eli Lilly Oncology Targets at Royal Marsden Research Center.",
+      "source": "Max Jaderberg",
+      "target": "Eli Lilly Oncology Targets"
+    },
+    {
+      "relation": "LOCATED_AT",
+      "source_chunk": "Chunk 5",
+      "evidence": "Max Jaderberg leads the computational clinical platform for Eli Lilly Oncology Targets at Royal Marsden Research Center.",
+      "source": "Royal Marsden Research Center",
+      "target": "Royal Marsden Research Center"
+    }
+  ]
+}
